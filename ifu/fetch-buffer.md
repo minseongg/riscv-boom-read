@@ -48,8 +48,3 @@ Fetch Buffer is a circular buffer with head and tail.
 - in_mask: `Vec(fetchWidth, Bool())` 들어오는 uop의 validity
 - in_uops: `Vec(fetchWidth, new MicroOp())` 들어오는 uop (최대 fetchWidth개)
 
-#### Notes
-
-- MaskUpper: Set all bits at or above the lowest order '1'.
-  - `0010` -> `1110`
-

@@ -10,6 +10,7 @@
 - D$: Data Cache
 - darb: 
 - dcshim: 
+- CFI: Control Flow Integrity
 
 ### Rocket Chip
 
