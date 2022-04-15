@@ -4,6 +4,12 @@ Takes a FetchBundle and converts into a vector of MicroOps.
 
 Buffer to hold fetched packets and convert them into a vector of MicroOps to give the Decode stage
 
+#### FetchBufferResp
+
+Frontend 에서 Decode stage 로 넘겨주는 데이터
+
+- uops: `Vec(coreWidth, Valid(new MicroOp()))` `coreWidth` 개의 Uop 들로 이루어져 있음.
+
 ### IO
 
 Fetch Buffer is following Valid/Ready protocol.

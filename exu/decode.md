@@ -1,12 +1,15 @@
-# Decode Stage
+## Decode Stage
 
 - Take instructions from Fetch Buffer
 - Decode the instruction
 - Allocate the necessary resources as required by each instruction
+- Combinational Logic (Pure function of input signals)
 
-### DecodeUnitIo
+### IO
 
-- enq, deq: MicroOp
+- enq: `Input(new MicroOp())` 들어오는 Uop
+- deq: `Output(new MicroOp())` 나가는 Uop
+- status, csr_decode, interrupt, interrupt_cause: From CSRFile (무엇인지 잘 모르겠다.)
 
 ### BranchDecodeSignals
 

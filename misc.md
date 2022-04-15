@@ -4,13 +4,15 @@
 
 - PTW: Page Table Walker
 - TLB: Translation Look-aside Buffer (Virtual Address를 Physical Address로 변환)
-- CSR
+- CSR: RISC-V Control and Status Registers
 - LSU: Load/Store Unit
 - I$: Instruction Cache
 - D$: Data Cache
 - darb: 
 - dcshim: 
 - CFI: Control Flow Integrity
+- hart: Hardware Thread, Core / Processor (in RISC-V)
+- xcpt: Exception
 
 ### Rocket Chip
 
